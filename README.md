@@ -1,19 +1,20 @@
 # 🚀 Transformers from Scratch
-### *Implementing "Attention Is All You Need" from the ground up*
+### *Implementing "Attention Is All You Need" in PyTorch & TensorFlow*
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/Framework-PyTorch-ee4c2c.svg)](https://pytorch.org/)
+[![TensorFlow](https://img.shields.io/badge/Framework-TensorFlow-FF6F00.svg)](https://www.tensorflow.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Welcome to my dedicated repository for mastering **Transformer Architectures** and **Attention Mechanisms**. This project documents my journey of implementing the seminal "Attention Is All You Need" paper, moving from mathematical foundations to Large Language Models (LLMs).
+Welcome to my dedicated repository for mastering **Transformer Architectures**. This project documents my journey of implementing the seminal "Attention Is All You Need" paper from the ground up, using both **PyTorch** and **TensorFlow** to understand the cross-framework nuances of Attention Mechanisms.
 
 ---
 
 ## 📌 Project Overview
-The Transformer architecture revolutionized NLP and Computer Vision by replacing recurrence with **Self-Attention**. In this repository, I break down the complexity of:
+The Transformer architecture revolutionized NLP and Computer Vision. In this repository, I break down:
 * **Self-Attention Mechanisms** (The "DNA" of modern AI)
 * **Multi-Head Projections** for parallel representation
-* **Encoder-Decoder Stacks** for Seq2Seq tasks
+* **Framework Comparisons**: Implementing core logic in both `torch.nn` and `tf.keras`.
 
 ---
 
@@ -22,8 +23,12 @@ The Transformer architecture revolutionized NLP and Computer Vision by replacing
 ```text
 Transformers-from-Scratch/
 ├── 01_Core_Components/
-│   ├── Scaled_Dot_Product_Attention.py   <-- 🏁 Start Here!
-│   ├── Multi_Head_Attention.py
+│   ├── PyTorch/
+│   │   ├── Scaled_Dot_Product_Attention.py
+│   │   └── Multi_Head_Attention.py
+│   ├── TensorFlow/
+│   │   ├── Scaled_Dot_Product_Attention.py
+│   │   └── Multi_Head_Attention.py
 │   └── Positional_Encoding.py
 ├── 02_Architectures/
 │   ├── Vanilla_Transformer/              # The Original Paper (2017)
