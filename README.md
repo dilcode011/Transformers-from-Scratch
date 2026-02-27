@@ -39,7 +39,5 @@ Transformers-from-Scratch/
 │   ├── Machine_Translation/     # Full Seq2Seq NMT (English-to-Hindi)
 │   ├── Sentiment_Analysis/      # BERT-based Text Classification
 │   └── GPT_Story_Gen/           # Mini-GPT for Autoregressive Generation
-├── 05_Notebooks/                # Visualization & Analysis
-│   └── Visualizing_Attention.ipynb
-├── README.md
-└── requirements.txt
+└──README.md
+
